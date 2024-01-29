@@ -1,0 +1,112 @@
+[
+  [
+    "hi|hello|hey",
+    [
+      "Hello there! What can I do for you today?",
+      "Hi! How can I assist you right now?"
+    ]
+  ],
+  [
+    "how are you ?",
+    [
+      "I'm just a program, but I'm here and ready to help. What do you need assistance with?"
+    ]
+  ],
+  [
+    "what can you do ?",
+    [
+      "I can provide information, answer questions, offer recommendations, or just chat with you. How can I assist you today?"
+    ]
+  ],
+  [
+    "tell me about yourself",
+    [
+      "I'm your virtual assistant designed to make your interactions easier. Ask me anything you'd like to know!"
+    ]
+  ],
+  [
+    "(.*) (good|great|fine)",
+    [
+      "That's wonderful to hear! How can I contribute to your positive experience today?"
+    ]
+  ],
+  [
+    "(.*) (bad|not good)",
+    [
+      "I'm sorry to hear that. Let's work together to turn things around. What's on your mind?"
+    ]
+  ],
+  [
+    "thank you|thanks",
+    [
+      "You're welcome! If there's anything else you need or want to discuss, feel free to let me know."
+    ]
+  ],
+  [
+    "bye|goodbye",
+    [
+      "Goodbye! Take care, and feel free to return whenever you need assistance or just want to chat.",
+      "See you later! If you have more questions in the future, I'll be here."
+    ]
+  ],
+  [
+    "your name?",
+    [
+      "I'm just a chatbot, so I don't have a personal name. You can call me your virtual assistant. How can I assist you today?"
+    ]
+  ],
+  [
+    "how can I contact support",
+    [
+      "To contact support, please visit our support page on the website or use the 'Contact Us' section. They'll be happy to assist you further."
+    ]
+  ],
+  [
+    "(.*) (recommend|suggest) (.*)",
+    [
+      "Considering your preferences, I recommend trying [specific suggestion]. Let me know what you think!"
+    ]
+  ],
+  [
+    "(.*) (weather|forecast) (.*)",
+    [
+      "Sure, I can help with the weather. Could you please provide your location for accurate information?"
+    ]
+  ],
+  [
+    "(.*) (movie|film) (.*)",
+    [
+      "If you're into movies, check out [specific movie]. It's a great choice!"
+    ]
+  ],
+  [
+    "(.*) (book|read) (.*)",
+    [
+      "I'm always up for book recommendations. Have you explored [specific book]? It's a captivating read!"
+    ]
+  ],
+  [
+    "(.*) (tech|technology) (.*)",
+    [
+      "Excited about technology! What specific tech topic are you interested in today?"
+    ]
+  ],
+  [
+    "(.*) hehehe (.*)",
+    [
+      "HoHoHo!"
+    ]
+  ],
+  [
+    "(.*) hehehehe (.*)",
+    [
+      "LOL!"
+    ]
+  ],
+  [
+    "hehe",
+    [
+      "HoHoHo!!!!!!!!!!"
+    ]
+  ]
+]

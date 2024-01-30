@@ -108,13 +108,13 @@ def start_chat():
                 response = chatbot.respond(user_input)
                 print("ChatBotAI-->", response)
             else:
-                print('ChatBotAI: I do not know the answer. Can you teach me?')
+                print('ChatBotAI--> I do not know the answer. Can you teach me?')
                 ans = input('Type answer here --> ')
                 manual_pairs.append([user_input, [ans]])
                 with open('data.json', 'w') as file:
                     json.dump(manual_pairs, file, indent=2)
         else:
-            print("ChatBotAI: I'm here to learn! Please provide some input.")
+            print("ChatBotAI--> I'm here to learn! Please provide some input.")
 
 if __name__ == "__main__":
     start_chat()
